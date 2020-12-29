@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    text-align: center;
+}
+.tariff_name{
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #a4aeb9;
+    padding-top: 20px;
+    height: 90px;
+    background-color: #f6f8fa;
+}
+.price{
+    font-family: Economica;
+    font-weight: bold;
+    font-size: 32px;
+    color: #a4aeb9;
+    background-color: #e3e4e8;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 70px;
+    display: inline-block;
+    position: relative;
+    top: -35px;
+}
