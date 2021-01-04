@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    position: relative;
+}
+.background_img{
+    width: 100%;
+}
+.place{
+    font-family: Economica;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 21px;
+    color: #FFF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.row>div{
+    display: inline-block;
+}
+.date{
+    width: 40%;
+}
+.forecast{
+    width: 20%;
+}
+.forecast.day1{
+    background-color: #48cfad;
+}
+.forecast.day2{
+    background-color: #5d9cec;
+}
+.forecast.day3{
+    background-color: #ed5565;
+}
