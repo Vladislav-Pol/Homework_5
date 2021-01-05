@@ -2,8 +2,20 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    width: calc(235px*4 + 1px*3);
+    border-bottom: 4px solid #e3e4e8;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+.container .block:not(:last-child){
+    border-right: 1px solid #e3e4e8;
+}
 .block{
+    display: inline-block;
     text-align: center;
+    width: 235px;
+    padding-bottom: 30px;
 }
 .tariff_name{
     font-family: 'Open Sans', serif;
@@ -12,7 +24,7 @@
     text-transform: uppercase;
     color: #a4aeb9;
     padding-top: 20px;
-    height: 90px;
+    height: 70px;
     background-color: #f6f8fa;
 }
 .price{
@@ -28,4 +40,41 @@
     display: inline-block;
     position: relative;
     top: -35px;
+    margin-bottom: -35px;
+}
+.description{
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 32px;
+    color: #a4aeb9;
+}
+.description .count{
+    font-family: "Arial Black";
+}
+.button{
+    text-transform: uppercase;
+    color: #a4aeb9;
+    font-family: "Arial Black";
+    font-size: 12px;
+    line-height: 32px;
+    background-color: #e3e4e8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 35px;
+    margin-top: 15px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.block:hover .button{
+    color: #FFF;
+    background-color: #ed5565;
+}
+.block:hover .tariff_name{
+     color: #FFF;
+     background-color: #ed5565;
+ }
+.block:hover .price{
+    color: #FFF;
+    background-color: #da4453;
 }

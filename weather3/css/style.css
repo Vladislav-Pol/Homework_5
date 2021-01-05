@@ -5,9 +5,11 @@
 }
 .content{
     position: relative;
+    width: 645px;
 }
-.background_img{
+.background_img {
     width: 100%;
+    margin-bottom: -4px;
 }
 .place{
     font-family: Economica;
@@ -18,23 +20,90 @@
     position: absolute;
     top: 20px;
     left: 20px;
+}
+.line{
+    background-color: #2b323c;
+    height: 4px;
+    width: 100%;
+
+}
+.row{
+    background-color: #434a54;
+    color: #FFF;
 
 }
 .row>div{
     display: inline-block;
-}
-.date{
-    width: 40%;
+    text-align: center;
+    vertical-align: top;
 }
 .forecast{
+    height: 112px;
     width: 20%;
 }
-.forecast.day1{
-    background-color: #48cfad;
+.day1{
+    height: 112px;
+    width: 40%;
+    box-shadow: 0 3px #2b323c;
+}
+.day1 .weather{
+    font-family: Economica;
+    font-weight: bold;
+    font-size: 42px;
+    padding: 10px 0 5px;
+}
+.day1 img{
+    height: 35px;
+}
+.day1 .date{
+    color: #949fab;
+    font-family:"Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #2b323c;
+    border-radius: 5px;
+    padding: 5px 30px;
+    display: inline;
+}
+.forecast .date{
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1px 15px;
+    margin-top: 10px;
+}
+.forecast img{
+    margin-top: 10px;
+}
+.forecast .weather div{
+   font-size: 26px;
+    font-family: Economica;
+    margin: 1px 0 0 5px;
 }
 .forecast.day2{
-    background-color: #5d9cec;
+    background-color: #48cfad;
+    box-shadow: 0 3px #37bc9b;
+}
+.forecast.day2 .date{
+    color: #1d856b;
+    background-color: #37bc9b;
 }
 .forecast.day3{
+    background-color: #5d9cec;
+    box-shadow: 0 3px #4a89dc;
+}
+.forecast.day3 .date{
+    color: #2b5ea2;
+    background-color: #4a89dc;
+}
+.forecast.day4{
     background-color: #ed5565;
+    box-shadow: 0 3px #da4453;
+}
+.forecast.day4 .date{
+    color: #971c29;
+    background-color: #da4453;
 }

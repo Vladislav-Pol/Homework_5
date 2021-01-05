@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.calc{
+    background-color: #303d3f;
+    font-family: 'Proxima Nova Regular';
+    font-size: 44px;
+    color: #708689;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    margin: 40px auto;
+}
+th{
+    font-size: 50px;
+    color: #fff;
+    height: 110px;
+    text-align: right;
+    padding-right: 30px;
+}
+tbody tr:first-child td:not(:last-child){
+    background-color: #39484a;
+}
+td{
+    border: 1px solid #334042;
+    min-width: 75px;
+    height: 75px;
+}
+tbody tr:first-child td:nth-child(1), tr:first-child td:nth-child(2){
+    border-right-color: #3d4c4e;
+}
+tr td:last-child{
+    background-color: #6cd1e5;
+}
+tbody tr td:last-child{
+    border-bottom: 1px solid #69cde1;
+}
+td:first-child{
+    border-left: none;
+}
+td:last-child{
+    border-right: none;
+}
+tr:last-child td{
+    border-bottom: none;
+}
+td img{
+    vertical-align: middle;
+}
